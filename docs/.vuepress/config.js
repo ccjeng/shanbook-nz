@@ -1,6 +1,6 @@
 module.exports = {
-    title: '紐西蘭',
-    description: '善善的第四本書：紐西蘭',
+    title: 'Shan的第四本書: 2013年紐西蘭南島環島自助旅行圖文詩集',
+    description: 'Shan的第四本書: 2013年紐西蘭南島環島自助旅行圖文詩集',
     base: '/',
     repo: 'https://github.com/ccjeng/shanbook-nz',
     head: [
@@ -10,7 +10,8 @@ module.exports = {
         sidebarDepth: 0,
         sidebar: [
           ['/','前言'],
-          ['01','紐西蘭的美，美在天寬地闊']
+          ['01','紐西蘭的美，美在天寬地闊'],
+          ['02','紐西蘭的羊駝印象之一']
         ],
         nav: [
           { text: '首頁', link: '/' },
@@ -26,6 +27,7 @@ module.exports = {
         ['@vuepress/google-analytics', {'ga': ''} ],
         ['@vuepress/back-to-top'],
         ['@vuepress/last-updated'],
-        ['img-lazy']
+        ['img-lazy'],
+        ['image']
     ]
 }
